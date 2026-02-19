@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Header from "./components/Header"
 import Section from "./components/Section"
@@ -38,9 +37,10 @@ function App() {
     <Content/>
    
       <div className='flex space-x-5 p-2'>
-        <img src="src/assets/Segriya.jpg" alt=""  className='w-60'/>
-        <img src="src/assets/Malaysia.jpg" alt="" className='w-60'/>
-        <img src="src/assets/-Maldives.webp" alt="" className='w-60'/>
+        <img src="./public/-Maldives.webp" alt=""  className='w-60'/>
+        <img src="./public/Malaysia.jpg" alt="" className='w-60'/>
+        <img src="./public/Tajmahal.avif" alt="" className='w-60'/>
+        <img src="./public/Segriya.jpg" alt="" className='w-60'/>
       </div>
 
     <Footer/>
